@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "";
+}
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: bolditalic;
+    src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+.register{
+    width: 100%;
+    padding: 0px 300px ;
+}
+.register form{
+    width: 100%;
+    padding: 0px 120px;
+}
+.register form label{
+    font-size: 14px;
+    font-family: bolditalic;
+    padding-top: 5px;
+}
+.register .headtext{
+    width: 100%;
+    padding: 50px 120px 0px 120px;
+}
+.register .headtext h2{
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: bold;
+    border-bottom: 4px solid #670C07;
+}
+.register .headtext p{
+    font-family: medium;
+}
+.register form input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(153, 153, 153, 0.459);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    
+}
+.register form .errortext{
+    color: red;
+    display: none;
+}
+.register form .submitbtn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.register form .submitbtn ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register form .submitbtn ul li{
+    padding-right: 10px;
+}
+.register form .submitbtn button{
+    width: 100px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    font-family: medium;
+}
+.register form .submitbtn button:hover{
+    color: #670C07;
+    cursor: pointer;
+}
+.register .icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.register .icons .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register .icons .img img{
+    width: 15%;
+}
+.register .icons ul{
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+}
+.register .icons ul li{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register .icons ul .li1{
+    background-color: #3b5998;
+    margin-right: 5px;
+   
+}
+.register .icons ul .li2{
+    background-color: #db3236;
+    margin-left: 5px;
+   
+}
+.register .icons ul li a{
+    text-decoration: none;
+}
+.register .icons ul li a i{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.afterlogintxt{
+    font-size: 30px;
+    align-items: center;
+    font-family: bold;
+}
+.afterlogindiv{
+    width: 100%;
+    height: 120px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 767px){
+    .register{
+        width: 100%;
+        padding: 0px 10px ;
+    }
+    .register form{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .register .headtext{
+        width: 100%;
+        padding: 50px 10px 0px 10px;
+    }
+    .register .icons .img img{
+        width: 30%;
+    }
+    .register .headtext p{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1223px ){
+    .register{
+        width: 100%;
+        padding: 0px 30px ;
+    }
+    .register form{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .register .headtext{
+        width: 100%;
+        padding: 50px 20px 0px 20px;
+    }
+    .register .icons .img img{
+        width: 25%;
+    }
+
+}

@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "";
+}
+
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+}
+
+.futter{
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    padding-top: 50px;
+    z-index: 1;
+}
+.futter .main .row{
+    padding-bottom: 20px;
+}
+.futter .main .logo{
+    width: 10%;
+    
+}
+.futter .main .logo img{
+    width: 100%;
+}
+.futter .main .src{
+    position: relative;
+    padding-top: 30px;
+}
+.futter .main .src h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: bold;
+}
+.futter .main .src input{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: #fff solid 2px;
+    font-size: 18px;
+    color: #fff;
+}
+.futter .main .src button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    right: 140px;
+    top: 65px;
+    font-family: medium;
+    transition: .5s;
+}
+.futter .main .src button:hover{
+    cursor: pointer;
+    background-color: #670C07;
+    color: #fff;
+}
+.futter .main .src p{
+    margin-bottom: -5px;
+    color: #999;
+    font-size: 10px;
+    font-family: medium;
+    padding-top: 3px;
+}
+.futter .main .src .errortext{
+    color: red;
+    display: none;
+}
+.futter .main .icons{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.futter .main .icons h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-family: medium;
+}
+.futter .main .icons ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    
+}
+.futter .main .icons ul li{
+    padding-left: 40px;
+}
+.futter .main .icons ul li a{
+    text-decoration: none;
+}
+.futter .main .icons ul li a i{
+    color: #fff;
+    transition: .5s;
+    font-size: 22px;
+}
+.futter .main .icons ul li a i:hover{
+    color: #670C07;
+}
+.futter hr{
+    border-top: 1px solid #999;
+}
+.futter .sponsors{
+padding-top: 30px;
+}
+.futter .sponsors .box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.futter .sponsors .box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.futter .sponsors .box img{
+    width: 80%;
+    opacity: .8;
+}
+.futter .sponsors .box2{
+    width: 100%;
+    padding-top: 50px;
+    
+}
+.futter .sponsors .box2 a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.futter .sponsors .box2 img{
+    width: 8%;
+    opacity: .8;
+}
+.futter .main .signedAlert{
+    width: 400px;
+    height: 50px;
+    background-color: #54c58f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 20px;
+}
+.futter .main .signedAlert h4{
+    color: #fff;
+    font-size: 18px;
+}
+@media screen and (max-width: 767px){
+    .futter{
+        height: 920px;
+        padding-top: 50px;
+    }
+    .futter .main .row{
+        padding-bottom: 0px;
+    }
+    .futter .main .logo{
+        width: 20%;
+        
+    }
+    .futter .main .src h3{
+        font-size: 14px;
+    }
+    .futter .main .src input{
+        width: 320px;
+    }
+    .futter .main .src button{
+        right: 10px;
+        top: 80px;
+    }
+    .futter .main .icons{
+        padding-top: 50px;
+        display: block;
+    }
+    .futter .main .icons h3{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+        
+    }
+    .futter .main .icons ul{
+        padding-left: 0px;
+        
+    }
+    .futter .main .icons ul li{
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+    .futter .sponsors .box{
+        margin-bottom: 50px;
+    }
+    .futter .sponsors .box img{
+        width: 60%;
+        opacity: .8;
+    }
+    .futter .sponsors .box2{
+        width: 100%;
+        padding-top: 50px;
+        
+    }
+    .futter .sponsors .box2 a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .futter .sponsors .box2 img{
+        width: 25%;
+        opacity: .8;
+    }
+    .futter .main .signedAlert{
+        width: 320px;
+    }
+    .futter .main .signedAlert h4{
+        color: #fff;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1223px){
+    .futter{
+        height: 920px;
+        padding-top: 50px;
+    }
+    .futter .main .row{
+        padding-bottom: 0px;
+    }
+    .futter .main .logo{
+        width: 10%;
+        
+    }
+    .futter .main .logo img{
+        width: 100%;
+    }
+    .futter .main .src{
+        position: relative;
+        padding-top: 30px;
+    }
+    .futter .main .src h3{
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        font-family: bold;
+    }
+    .futter .main .src input{
+        width: 100%;
+    }
+    .futter .main .src button{
+        right: 0px;
+        top: 70px;
+    }
+    .futter .main .icons{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding-top: 20px;
+    }
+    .futter .main .icons h3{
+        padding-top: 20px;
+        font-size: 17px;
+    }
+    .futter .main .icons ul{
+        padding-left: 100px;
+        
+    }
+    
+    .futter .main .icons ul li{
+        padding-right: 70px;
+    }
+    .futter .sponsors .box{
+        margin-bottom: 50px;
+    }
+    .futter .sponsors .box img{
+        width: 30%;
+        opacity: .8;
+    }
+    .futter .sponsors .box2 img{
+        width: 15%;
+        opacity: .8;
+    }
+    .futter .main .signedAlert{
+        width: 100%;
+    }
+    .futter .main .signedAlert h4{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "";
+}
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+}
+
+.info{
+    width: 100%;
+    height: 35px;
+    background-color: #E0E0E0;
+}
+.info ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.info ul li{
+    width: 33%;
+    color: #231F20;
+    font-size: 13px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (max-width: 767px){
+    .info ul{
+        display: block;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        height: 100px;
+        background-color: #E0E0E0;
+    }
+    .info ul li{
+        width: 100%;
+        color: #231F20;
+        font-size: 8px;
+        padding-left: 40px;
+        
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1223px ){
+    .info ul li{
+        color: #231F20;
+        font-size: 12px;
+        padding-left: 10px;
+        
+    }
+}
+
+.cartlist{
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 15px 0px 15px;
+}
+.cartlist .headtext{
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+.cartlist .headtext h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cartlist .roww{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartlist .roww .carts{
+    width: 100%;
+    border-top: 1px solid rgba(153, 153, 153, 0.466);
+}
+.cartlist .roww .carts .cartt{
+    width: 100%;
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.466);
+    position: relative;
+}
+.cartlist .roww .carts .cartt .img{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartlist .roww .carts .cartt .img img{
+    width: 80%;
+}
+.cartlist .roww .carts .cartt .content h3{
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.cartlist .roww .carts .cartt .content h5{
+    font-size: 17px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 15px;
+}
+.cartlist .roww .carts .cartt .content h5 > span{
+    font-size: 17px;
+    font-weight: 400;
+}
+.cartlist .roww .carts .cartt .content h5 > span > button{
+    background-color: transparent;
+    border: transparent;
+    padding: 5px;
+    margin: 0px 5px;
+}
+.cartlist .roww .carts .cartt .content > span{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 17px;
+}
+.cartlist .roww .carts .cartt .content h6{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.cartlist .roww .carts .cartt .content h6:hover{
+    cursor: pointer;
+}
+.cartlist .roww .cost{
+    width: 100%;
+    padding-left: 50px;
+}
+.cartlist .roww .costform{
+    width: 100%;
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cartlist .roww .costform .headtxt{
+    display: flex;
+    justify-content: center;
+}
+.cartlist .roww .costform .headtxt h4{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    color: #000;
+}
+.cartlist .roww .costform .headtxt h4::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #670C07;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    clip-path: polygon(3% 0, 100% 0, 97% 100%, 0% 100%);
+}
+.cartlist .roww .costform .total{
+    padding: 20px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartlist .roww .costform .total h5{
+    width: 100%;
+    font-size: 17px;
+    color: #000;
+    border-top: 1px solid rgba(153, 153, 153, 0.281);
+    padding: 10px 0px;
+    position: relative;
+}
+.cartlist .roww .costform .total h5 > span{
+    font-size: 17px;
+    color: #000;
+    position: absolute;
+    right: 6px;
+}
+.cartlist .roww .costform .total h4{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    border-top: 1px solid rgba(153, 153, 153, 0.281);
+    padding: 10px 0px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.cartlist .roww .costform .total > span{
+    font-family: bold;
+}
+.cartlist .roww .costform .total h4 > span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    right: 6px;
+}
+.cartlist .roww .costform .total h4::after{
+    content: "(ƏDV daxil)";
+    width: 100%;
+    height: inherit;
+    color: rgba(153, 153, 153, 0.315);
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+}
+.cartlist .roww .costform .total a{
+    font-size: 16px;
+    color: #fff;
+    background-color: #00A651;
+    padding: 13px 210px;
+    display: block;
+    text-decoration: none;
+    transition: .5s;
+    
+}
+.cartlist .roww .costform .total a:hover{
+    background-color: #027c3d;
+    cursor: pointer;
+}
+.cartlist .emptytxt{
+    padding-left: 15px;
+    font-family: medium;
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .cartlist .roww .carts .cartt .img{
+        width: 40%;
+    }
+    .cartlist .roww .carts .cartt .img img{
+        width: 80%;
+    }
+    .cartlist .roww .carts .cartt .content h3{
+        font-size: 13px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .cartlist .roww .carts .cartt .content h5{
+        font-size: 13px;
+        display: block;
+    }
+    .cartlist .roww .carts .cartt .content h5 > span{
+        font-size: 13px;
+    }
+    .cartlist .roww .carts .cartt .content > span{
+        position:inherit;
+      
+        font-size: 17px;
+    }
+    .cartlist .roww .cost{
+        width: 100%;
+        padding: 0px;
+        padding-top: 30px;
+    }
+    .cartlist .col-12{
+        padding: 0px;
+    }
+    .cartlist .roww .costform{
+        width: 100%;
+        background-color: #ebebeb;
+        padding-top: 20px;
+    }
+    .cartlist .roww .costform .headtxt h4{
+        font-size: 20px;
+    }
+    .cartlist .roww .costform .total h5{
+        font-size: 15px;
+    }
+    .cartlist .roww .costform .total h5 > span{
+        font-size: 15px;
+    }
+    .cartlist .roww .costform .total h4{
+        font-size: 16px;
+    }
+    .cartlist .roww .costform .total h4 > span{
+        font-size: 16px;
+    }
+    .cartlist .roww .costform .total a{
+        font-size: 16px;
+        color: #fff;
+        background-color: #00A651;
+        padding: 12px 110px;
+        display: block;
+        text-decoration: none;
+        transition: .5s;
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1223px ){
+    .cartlist .roww .cost{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    
+    .cartlist .roww .costform .total a{
+        padding: 13px 290px;
+
+        
+    }
+    
+}
+
+
+
+
+
+
+
+.recoment{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+.recoment .headtext{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+.recoment .headtext h2{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    color: #000;
+    display: block;
+}
+.recoment .headtext h2::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #670C07;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    clip-path: polygon(3% 0, 100% 0, 97% 100%, 0% 100%);
+}
+.recoment .roww .box{
+    width: 100%;
+}
+.recoment .roww .box .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recoment .roww .box .img img{
+    width: 80%;
+}
+.recoment .roww .box h3{
+    font-size: 14px;
+}
+.recoment .roww .box span{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: bolder;
+}
+.recoment .roww .owl-nav i{
+    color: #000;
+    font-size: 20px;
+}
+.recoment .roww .owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.recoment .roww .owl-next{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.recoment .roww .owl-next:hover,
+.recoment .roww .owl-prev:hover{
+    background-color: transparent;
+}
+.recoment .roww  a{
+    color: #000;
+    text-decoration: none;
+}
+@media screen and (max-width: 767px){
+    .recoment .headtext h2{
+        font-size: 16px;
+    }
+    .recoment .roww .box .content{
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1223px ){
+    .recoment .roww .box .content{
+        padding-left: 20px;
+    }
+}

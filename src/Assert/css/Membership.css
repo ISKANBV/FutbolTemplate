@@ -1,0 +1,964 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: bolder;
+    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: bolditalic;
+    src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.titleship{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+.titleship .videobox{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.titleship .videobox video{
+    width: 100%;
+}
+
+.titleship::after{
+    content: "";
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+}
+.titleship .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+}
+.titleship .box h1{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 150px;
+    font-family: bolder;
+    font-weight: 600;
+    z-index: 5;
+}
+.titleship .box p{
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+    font-family: bolder;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.titleship .box p span{
+    color: #670C07;
+}
+.titleship .box .img{
+    width: 20%;
+    position: absolute;
+    right: 110px;
+    top: 10px;
+    z-index: 4;
+}
+.titleship .box .img img{
+    width: 100%;
+}
+@media screen and (max-width: 767px){
+    .titleship{
+        height: 500px;
+    }
+    
+    .titleship .box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 3;
+        position: absolute;
+        top: 10px;
+    }
+    .titleship .box h1{
+        text-align: center;
+        color: #fff;
+        position: relative;
+        font-size: 40px;
+        font-family: bolder;
+        font-weight: 600;
+        z-index: 5;
+    }
+    .titleship .box p{
+        position: absolute;
+        bottom: -120px;
+        left: 50px;
+        font-size: 20px;
+    }
+    .titleship .box .img{
+        width: 100%;
+        position: relative;
+        right: auto;
+        top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 4;
+    }
+    .titleship .box .img img{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1223px ){
+    .titleship .box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 3;
+        position: absolute;
+        top: 10px;
+    }
+    .titleship .box h1{
+        text-align: center;
+        color: #fff;
+        position: relative;
+        font-size: 80px;
+        font-family: bolder;
+        font-weight: 600;
+        z-index: 5;
+    }
+    .titleship .box p{
+        position: absolute;
+        bottom: -60px;
+        left: 50px;
+        font-size: 25px;
+    }
+    .titleship .box .img{
+        width: 100%;
+        position: relative;
+        right: auto;
+        top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 4;
+    }
+    .titleship .box .img img{
+        width: 30%;
+    }
+}
+
+.mywolves{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-image: url(https://memberships.wolves.co.uk/wp-content/themes/wolves-membership/library/images/backgrounds/fans-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.mywolves::after{
+    content: "";
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+}
+.mywolves .roww{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    z-index: 3;
+    display: flex;
+}
+.mywolves .roww .box{
+    width: 100%;
+    height: 850px;
+
+}
+.mywolves .roww .box .img{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.mywolves .roww .box .img img{
+    width: 80%;
+    height: inherit;
+}
+.mywolves .roww .box .packtxt{
+    padding-top: 10px;
+}
+.mywolves .roww .box .packtxt h2{
+    color: #fff;
+    font-size: 40px;
+    font-family: bold;
+}
+.mywolves .roww .box .packtxt span{
+    background-color: #FDB92B;
+    color: #000;
+    font-size: 20px;
+    padding: 5px 35px;
+    clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0% 50%);
+    font-family: bolditalic;
+    font-weight: bold;
+}
+.mywolves .roww .box .packprice{
+    padding-top: 40px;
+}
+.mywolves .roww .box .packprice ul{
+    display: flex;
+    margin: 0px;
+}
+.mywolves .roww .box .packprice ul li{
+    list-style: none;
+    padding-right: 25px;
+}
+.mywolves .roww .box .packprice ul li p span{
+    font-size: 35px;
+    color: #FDB92B;
+    font-family: bold;
+}
+.mywolves .roww .box .packprice p{
+    font-family: bolder;
+    color: #fff;
+    font-size: 14px;
+    
+}
+.mywolves .roww .box .packcontents{
+    padding-top: 20px;
+}
+.mywolves .roww .box .packcontents h3{
+    font-size: 25px;
+    font-family: bolder;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.mywolves .roww .box .packcontents ul{
+    padding-left: 15px;
+    
+}
+.mywolves .roww .box .packcontents ul li{
+    color: #FDB92B;
+    padding-bottom: 15px;
+    
+}
+.mywolves .roww .box .packcontents ul li span{
+    color: #fff;
+    font-size: 18px;
+    font-family: medium;
+}
+.mywolves .roww .box .packcontents button{
+    display: block;
+}
+.mywolves .roww .box .packcontents #buybtn,
+.mywolves .roww .box .packcontents #buybtn2,
+.mywolves .roww .box .packcontents #buybtn3,
+.mywolves .roww .box .packcontents #buybtn4{
+    display: none;
+}
+.mywolves .roww .box .packcontents #giftbtn{
+    display: none;
+}
+.mywolves .roww .box .packcontents #infobtn{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: bolder;
+    border: 2px solid #FDB92B;
+    outline: none;
+    color: #fff;
+    border-radius: 25px;
+    transition: .5s;
+    margin-top: 40px;
+}
+.mywolves .roww .box .packcontents #infobtn:hover{
+    background-color: #FDB92B;
+}
+.mywolves .roww .box .packcontents #infobtn2{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: bolder;
+    border: 2px solid #99815A;
+    outline: none;
+    color: #fff;
+    border-radius: 25px;
+    transition: .5s;
+    margin-top: 0px;
+}
+.mywolves .roww .box .packcontents #infobtn2:hover{
+    background-color: #99815A;
+}
+.mywolves .roww .box .packcontents #infobtn3{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: bolder;
+    border: 2px solid #A8C142;
+    outline: none;
+    color: #fff;
+    border-radius: 25px;
+    transition: .5s;
+    margin-top: 0px;
+}
+.mywolves .roww .box .packcontents #infobtn3:hover{
+    background-color: #A8C142;
+}
+.mywolves .roww .box .packcontents #infobtn4{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: bolder;
+    border: 2px solid #16AFD4;
+    outline: none;
+    color: #fff;
+    border-radius: 25px;
+    transition: .5s;
+    margin-top: 0px;
+}
+.mywolves .roww .box .packcontents #infobtn4:hover{
+    background-color: #16AFD4;
+}
+
+.packbuy{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: relative;
+    z-index: 5;
+}
+.packbuy .col-6{
+    padding: 0px;
+}
+.packbuy .box{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.packbuy .box p{
+    margin: 0px;
+    font-size: 22px;
+    font-family: bold;
+}
+.packbuy:hover{
+    cursor: pointer;
+}
+.packbuy .box p i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.packbuy .box p img{
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 767px){
+    .packbuy{
+        display: none;
+    }
+
+    .mywolves{
+        height: 1500px;
+        background-size: contain;
+        background-color: #000;
+    }
+    .mywolves .roww{
+        display: block;
+    }
+    .mywolves .roww .box{
+        width: 100%;
+        height: 850px;
+    
+    }
+    .mywolves .roww .boximg{
+        width: 100%;
+        height: 300px;
+    
+    }
+    .mywolves .roww .box .img{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    
+    
+    }
+    .mywolves .roww .box .img img{
+        width: 80%;
+        height: inherit;
+    }
+    .mywolves .roww .box .packtxt{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mywolves .roww .box .packtxt h2{
+        font-size: 25px;
+    }
+    .mywolves .roww .box .packtxt span{
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+    .mywolves .roww .box .packprice{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mywolves .roww .box .packprice ul{
+        display: block;
+    }
+    .mywolves .roww .box .packprice ul li{
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mywolves .roww .box .packprice ul li:last-child p span{
+        padding-left: 50px;
+    }
+    
+    .mywolves .roww .box .packprice p{
+        font-size: 12px;
+        
+    }
+    .mywolves .roww .box .packcontents h3{
+        text-align: center;
+    }
+    .mywolves .roww .box .packcontents ul li span{
+        color: #fff;
+        font-size: 14px;
+    }
+    .mywolves .roww .box .packcontents #buybtn{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #FDB92B;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #giftbtn{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #FDB92B;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #buybtn2{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #99815A;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn2{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #99815A;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #buybtn3{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #A8C142;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn3{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #A8C142;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #buybtn4{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #16AFD4;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn4{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #16AFD4;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1223px ){
+    .packbuy{
+        display: none;
+    }
+
+    .mywolves{
+        height: 1600px;
+        background-size: contain;
+        background-color: #000;
+    }
+    .mywolves .roww{
+        display: block;
+    }
+    .mywolves .roww .box{
+        width: 100%;
+        height: 850px;
+    
+    }
+    .mywolves .roww .boximg{
+        width: 100%;
+        height: 500px;
+    
+    }
+    .mywolves .roww .box .img{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    
+    
+    }
+    .mywolves .roww .box .img img{
+        width: 60%;
+        height: inherit;
+    }
+    .mywolves .roww .box .packtxt{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mywolves .roww .box .packtxt h2{
+        font-size: 25px;
+    }
+    .mywolves .roww .box .packtxt span{
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+    .mywolves .roww .box .packprice{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mywolves .roww .box .packprice ul{
+        display: block;
+    }
+    .mywolves .roww .box .packprice ul li{
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mywolves .roww .box .packprice ul li:last-child p span{
+        padding-left: 50px;
+    }
+    
+    .mywolves .roww .box .packprice p{
+        font-size: 12px;
+        
+    }
+    .mywolves .roww .box .packcontents{
+        padding: 20px 100px 0px 100px;
+    }
+    .mywolves .roww .box .packcontents h3{
+        text-align: center;
+    }
+    .mywolves .roww .box .packcontents ul li span{
+        color: #fff;
+        font-size: 14px;
+    }
+    .mywolves .roww .box .packcontents #buybtn{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #FDB92B;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #giftbtn{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #FDB92B;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #buybtn2{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #99815A;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn2{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #99815A;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #buybtn3{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #A8C142;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn3{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #A8C142;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #buybtn4{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #16AFD4;
+        font-size: 14px;
+        font-family: bolder;
+        border: none;
+        outline: none;
+        color: #000;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+    .mywolves .roww .box .packcontents #infobtn4{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 14px;
+        font-family: bolder;
+        border: 2px solid #16AFD4;
+        outline: none;
+        color: #fff;
+        border-radius: 25px;
+        transition: .5s;
+        margin-top: 20px;
+    }
+}
+
+.draws{
+    width: 100%;
+    background: no-repeat url(https://memberships.wolves.co.uk/wp-content/themes/wolves-membership/library/images/backgrounds/young-wolves-bg.png);
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.draws::after{
+    content: "";
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+}
+.draws .headtext{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+.draws .headtext h2{
+    font-size: 40px;
+    color: #fff;
+    font-family: bolder;
+}
+.draws .headtext span{
+    font-size: 20px;
+    color: #fff;
+    font-family: medium;
+
+}
+.draws .roww{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    padding-top: 60px;
+}
+.draws .roww .box{
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 8px;
+    position: relative;
+}
+.draws .roww .box .content{
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    bottom: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #272727;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.draws .roww .box .content h4{
+    font-size: 18px;
+    color: #FDB92B;
+    font-family: bolder;
+}
+.draws .roww .box .content p{
+    font-size: 18px;
+    color: #fff;
+}
+.draws .roww .owl-nav{
+    position:absolute;
+    top: -150px;
+    right: 150px;
+    display: flex;
+}
+.draws .roww .owl-nav i{
+    color: #fff;
+    font-size: 30px;
+}
+.draws .roww .owl-prev{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    outline: none;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.draws .roww .owl-next{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.draws .roww .owl-next:hover,
+.draws .roww .owl-prev:hover{
+    background-color: transparent;
+}
+@media screen and (max-width: 767px){
+    .draws{
+        height: 820px;
+        padding-left: 20px;
+    }
+    .draws .roww{
+        width: 100%;
+        position: relative;
+        z-index: 3;
+        padding-top: 60px;
+    }
+    .draws .roww .box{
+        background-size: cover;
+    }
+
+    .draws .roww .owl-nav{
+        width: 100%;
+        position:relative;
+        right: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1223px ){
+    .draws{
+        height: 800px;
+        padding-left: 50px;
+    }
+    .draws .roww{
+        width: 100%;
+        position: relative;
+        z-index: 3;
+        padding-top: 60px;
+    }
+    .draws .roww .box{
+
+        background-size: cover;
+    }
+    .draws .roww .owl-nav{
+        width: 100%;
+        position:relative;
+        right: 0px;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
