@@ -13,7 +13,7 @@ function AllNews(props) {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/0/1/c/7/c/8/01c7c881bf3e3ab06a4dbfeb6ad8b0319a17cffa.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/c/0/5/4/b/5c054b5b373f5162a0b6c652254383abab8da3b8.webp)" }}>
                 <div className="overlay">
                 <h1>Xəbərlər</h1>
                 </div>

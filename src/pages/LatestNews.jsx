@@ -13,7 +13,7 @@ function LatestNews(props) {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/9/5/8/d/9/b958d9377e35252908f9bc91d52d6ead49b82810.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/a/7/2/2/b/fa722b3025985bfb40478c00eca0d4157888a5a5.webp)" }}>
                 <div className="overlay">
                 <div className="text">
                 <h1>Xəbərlər</h1>

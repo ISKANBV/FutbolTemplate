@@ -11,7 +11,7 @@ function AcademyNews(props) {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/1/a/2/4/b/81a24b34acdd77ce7f36773bcafe0790b94a0bc5.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/c/a/6/2/3/6/ca623662dd209b629f8dbab2426e1c6c5cefe815.webp)" }}>
                 <div className="overlay">
                 <div className="text">
                 <h1>Xəbərlər</h1>

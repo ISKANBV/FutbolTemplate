@@ -11,7 +11,7 @@ function AboutUs() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/6/5/8/f/4/e/658f4ef61b2d4dce3d1a6c32bde80bd2e41c4ac6.png)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/3/b/a/f/d/23bafde2bd7a78432576a4f71c32063b3af3f362.webp)" }}>
                 <div className="overlay">
                     <h1>Bizim haqqımızda</h1>
                 </div>
@@ -30,7 +30,7 @@ function AboutUs() {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/e/f/2/6/f/5ef26f1e7073185d5548be783ae94b1ec7f1a064.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/0/1/b/8/d/401b8d313b8383c1d8270fde636da8f8ca75b21b.webp)" }}>
                                 <div className="content">
                                     <h3>Sahiblik</h3>
                                     <p>Wolverhampton Wanderers Futbol Klubunun əsas əsas səhmdarları, Fosun Group -un sədri Guo Guangchang, Fosun Group -un CEO -su Wang Qunbin və Liang Xinjun -dur.</p>
@@ -39,7 +39,7 @@ function AboutUs() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/1/c/b/1/c/a1cb1cdec41bd3453981b93cccf9ffe552aeceee.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/0/2/7/b/e/b027be08db49ed61348db22f4aa2b79ce98fe989.webp)" }}>
                                 <div className="content">
                                     <h3>İdarəetmə qrupu</h3>
                                     <Link to="/aboutmdetail">Bura basın</Link>
@@ -48,7 +48,7 @@ function AboutUs() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/c/4/a/d/d/7/c4add73cab4bf156959ae96c52cb35e7c4f1fa9f.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/e/d/c/2/4/6/edc2461f875fdce7a51d02730ce07913d6a2209f.webp)" }}>
                                 <div className="content">
                                     <h3>Direktor profilləri</h3>
                                     <Link to="/aboutddetail">Bura basın</Link>
@@ -66,7 +66,7 @@ function AboutUs() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/f/e/e/d/c/4feedc60877958424a5747856a3f154a1b4e561d.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/5/1/7/3/f/25173fd028967079b6914962779843d10559a5d0.webp)" }}>
                                 <div className="content">
                                     <h3>Oyunçu profilləri</h3>
                                     <Link to="/players">Bura basın</Link>
@@ -75,7 +75,7 @@ function AboutUs() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/c/7/e/8/2/9/c7e829c4d63abb1786cda0a4453d817cae7cbf4a.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/7/4/d/e/8/a74de859be088718bdf7027fd5783f1be62d6018.webp)" }}>
                                 <div className="content">
                                     <h3>Futbol olmayan heyət</h3>
                                     <Link to="/aboutfdetail">Bura basın</Link>
@@ -84,7 +84,7 @@ function AboutUs() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/b/8/8/5/8/2b885839f9c9a6086992579789926400e311d919.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/0/5/b/3/0/5/05b3058142ab00162b2744513688b9195c76ca18.webp)" }}>
                                 <div className="content">
                                     <h3>Wolvesden soruş</h3>
                                     <p>Ask Wolves Jeff Shi və Wolves -un yüksək rəhbərlik qrupunun bir sıra mövzuları həll edərək tərəfdarları tərəfindən verilən suallara cavab verdiyini görür.</p>

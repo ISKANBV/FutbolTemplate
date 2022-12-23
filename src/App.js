@@ -1,4 +1,4 @@
-import { Switch, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Futter from './components/Futter';
 import Header from './components/Header';
 import AboutDdetail from './pages/AboutDdetail';
@@ -41,7 +41,46 @@ function App() {
 
       <Header />
 
-      <Switch>
+      <Routes>
+        
+        <Route exact path='/' element={<Home />}/>
+        <Route exact path='/detail/:id' element={<Detailpage />}/>
+        <Route exact path='/newsdetail/:id' element={<Newsdetailpage />}/>
+        <Route exact path='/news' element={<AllNews />}/>
+        <Route exact path='/latestnews' element={<LatestNews />}/>
+        <Route exact path='/teamnews' element={<TeamNews />}/>
+        <Route exact path='/teamnewsdetail/:id' element={<TeamNewsdetailpage />}/>
+        <Route exact path='/academynews' element={<AcademyNews />}/>
+        <Route exact path='/academynewsdetail/:id' element={<AcademyNewsdetailpage />}/>
+        <Route exact path='/shopdetail/:id' element={<Shopdetail />}/>
+        <Route exact path='/homeshopdetail/:id' element={<HomeShopdetail />}/>
+        <Route exact path='/awayshopdetail/:id' element={<AwayShopdetail />}/>
+        <Route exact path='/shopselection' element={<ShopSelection />}/>
+        <Route exact path='/homeshop' element={<HomeShop />}/>
+        <Route exact path='/awayshop' element={<AwayShop />}/>
+        <Route exact path='/thirdshop' element={<ThirdShop />}/>
+        <Route exact path='/cart' element={<Cart />}/>
+        <Route exact path='/players' element={<Playerspage />}/>
+        <Route exact path='/matchs' element={<Matchs />}/>
+        <Route exact path='/aboutus' element={<AboutUs />}/>
+        <Route exact path='/aboutmdetail' element={<AboutMdetail />}/>
+        <Route exact path='/aboutddetail' element={<AboutDdetail />}/>
+        <Route exact path='/aboutfdetail' element={<AboutFdetail />}/>
+        <Route exact path='/history' element={<History />}/>
+        <Route exact path='/historyhdetail' element={<HistoryHdetail />}/>
+        <Route exact path='/historyrdetail' element={<HistoryRdetail />}/>
+        <Route exact path='/historymuseumdetail' element={<HistoryMuseumdetail />}/>
+        <Route exact path='/historyzdetail' element={<HistoryZdetail />}/>
+        <Route exact path='/historymdetail' element={<HistoryMdetail />}/>
+        <Route exact path='/contactus' element={<ContactUs />}/>
+        <Route exact path='/register' element={<Register />}/>
+        <Route exact path='/login' element={<Login />}/>
+        <Route exact path='/membership' element={<Membership />}/>     
+
+
+      </Routes>
+
+      {/* <Switch>
 
         <Route exact path="/">
           <Home />
@@ -177,7 +216,7 @@ function App() {
 
 
 
-      </Switch>
+      </Switch> */}
 
       <Futter />
 

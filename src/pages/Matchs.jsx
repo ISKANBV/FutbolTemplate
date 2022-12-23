@@ -11,7 +11,7 @@ function Matchs() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/7/5/d/6/5/275d650e873aec4c843a21c1034aa2d7460d370c.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/7/8/1/2/9/d/78129d3a6bcec1aca79887149e14f960d840606b.webp)" }}>
                 <div className="overlay">
                     <h1>MATÇLAR</h1>
                 </div>

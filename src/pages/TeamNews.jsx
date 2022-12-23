@@ -13,7 +13,7 @@ function TeamNews(props) {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/1/c/a/6/a/41ca6ab2021868bc4e9f2fa8490463fe8f4d6b1c.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/d/d/d/1/5/8ddd1595a7cc67a69add777038f866865def170b.webp)" }}>
                 <div className="overlay">
                 <div className="text">
                 <h1>Xəbərlər</h1>

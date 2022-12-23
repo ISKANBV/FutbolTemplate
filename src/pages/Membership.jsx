@@ -83,7 +83,7 @@ function Membership() {
                     <div className="col-12 col-md-12 col-lg-6">
                         <div className="box boximg">
                             <div className="img">
-                                <img src="https://memberships.wolves.co.uk/wp-content/uploads/2021/09/Adama-Traore-MyWolves.png" alt="" />
+                                <img src="https://memberships.wolves.co.uk/wp-content/uploads/2022/12/Adama-Traore.png" alt="" />
                             </div>
                         </div>
                     </div>

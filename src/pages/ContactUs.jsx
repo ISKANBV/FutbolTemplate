@@ -39,7 +39,7 @@ function ContactUs() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/d/9/e/d/1/d/d9ed1d8942b6d9dddf0f3a9f731a52088244d7ea.png)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/6/4/b/b/d/a64bbdf20775f962c667ec644db815cc4670f024.webp)" }}>
                 <div className="overlay">
                     <h1>BİZİMLƏ ƏLAQƏ SAXLAYIN</h1>
                 </div>
@@ -145,7 +145,7 @@ function ContactUs() {
                     </div>
                 </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.462024194716!2d49.841966134144634!3d40.37645159318752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da6f327d463%3A0xbe68553e791e5e84!2sCoders%20Azerbaijan!5e0!3m2!1sru!2s!4v1633886253001!5m2!1sru!2s" style={{ border: "0" }} width="100%" height="400" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.367625266635!2d49.845991575905025!3d40.37854417144582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da7c3a641cf%3A0x53a5c1e7cc11c36f!2z0JDQt9C10YDQsdCw0LnQtNC20LDQvdGB0LrQuNC5INCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90YvQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINCd0LXRhNGC0Lgg0Jgg0J_RgNC-0LzRi9GI0LvQtdC90L3QvtGB0YLQuA!5e0!3m2!1sru!2s!4v1671740926522!5m2!1sru!2s" style={{ border: "0" }} width="100%" height="400" allowfullscreen="" loading="lazy"></iframe>
 
             <div className="contactUs">
                 <div className="container">

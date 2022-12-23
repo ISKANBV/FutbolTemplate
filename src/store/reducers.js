@@ -392,7 +392,7 @@ const initState = {
         },
         {
             id: 41,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/c/d/6/8/0/3cd680791f4bb4fbc3cf736086b22e22bb843bd9.jpg",
+            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/d/c/d/1/0/3dcd105613e9cd1ebff45a3e72f299ccee5dc38a.webp",
             type: "Akademiya",
             title: "Akademiya dəstək qrupu, Forrester -in Suonsi hərəkətinə kömək edir",
             time: "20/08/21"
@@ -423,49 +423,49 @@ const initState = {
         },
         {
             id: 45,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/8/f/6/c/5/f8f6c56bf79e4709a78dfcc71f1b9fa0de07a859.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28380/ait-nouri-gillingham.jpg?anchor=center&mode=crop&width=613&rnd=133161060080000000&quality=80&format=webp",
             type: "Komanda",
             title: "Jimenez, Southamptonda qol axtarır",
             time: "2 gün əvvəl"
         },
         {
             id: 46,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/6/f/8/8/e/86f88ea0d6075fa13cfbe2d45c79c682b3f2c5d7.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28377/neves-gillingham.jpg?anchor=center&mode=crop&width=613&rnd=133160504340000000&quality=80&format=webp",
             type: "Komanda",
             title: "Lage | Jimenez, Podence və Saints haqqında",
             time: "2 gün əvvəl"
         },
         {
             id: 47,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/6/e/b/e/0/86ebe0a78263b8562004c7578ec13016d4a45f8b.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28376/lopetegui-gills.jpg?center=0.37573964497041418%2c0.49333333333333335&mode=crop&width=613&rnd=133160499560000000&quality=80&format=webp",
             type: "Komanda",
             title: "Qalereya | Baş tennis kortunda dram",
             time: "2 gün əvvəl"
         },
         {
             id: 48,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/f/b/a/f/c/2fbafc55073407e2e60c9a9eabbf05741d10180c.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28352/gills-2.jpg?anchor=center&mode=crop&width=613&rnd=133160404950000000&quality=80&format=webp",
             type: "Komanda",
             title: "Hesabat | Kurtlar 2-2 Spurs (2-3 qələm üzərində",
             time: "3 gün əvvəl"
         },
         {
             id: 49,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/c/c/b/4/c/7/ccb4c74ba48478e3ac26b3f3079f6ce53e10ac1e.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28367/gills-18.jpg?center=0.14792899408284024%2c0.45&mode=crop&width=613&rnd=133160461400000000&quality=80&format=webp",
             type: "Komanda",
             title: "Qalereya | Kurtlar 2-2 Tottenham (2-3 qələm)",
             time: "3 gün əvvəl"
         },
         {
             id: 50,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/0/e/8/a/8/0/0e8a80f6e789c41a293987473f12605d1fa7dfd5.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/27675/lee-h3.jpg?center=0.33431952662721892%2c0.49833333333333335&mode=crop&width=613&rnd=133159408620000000&quality=80&format=webp",
             type: "Komanda",
             title: "Matchday Blog | Kurtlar 2-2 Tottenham (2-3 qələm)",
             time: "3 gün əvvəl"
         },
         {
             id: 51,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/0/6/d/b/d/e/06dbde80acd831cfedbd8454b33506b29bed67b7.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28349/wolgil-blog.jpg?anchor=center&mode=crop&width=613&rnd=133160250150000000&quality=80&format=webp",
             type: "Komanda",
             title: "Matchday Live | Wolves vs Tottenham",
             time: "4 gün əvvəl"
@@ -474,63 +474,63 @@ const initState = {
     allnews: [
         {
             id: 52,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/6/f/8/8/e/86f88ea0d6075fa13cfbe2d45c79c682b3f2c5d7.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28343/1912-tr.jpg?center=0.42922374429223742%2c0.50128534704370176&mode=crop&width=1000&rnd=133159555440000000&quality=80",
             type: "Komanda",
             title: "Lage | Jimenez, Podence və Saints haqqında",
             time: "10 saat əvvəl"
         },
         {
             id: 53,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/6/e/b/e/0/86ebe0a78263b8562004c7578ec13016d4a45f8b.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28239/weekend-15.jpg?center=0.650887573964497%2c0.49333333333333335&mode=crop&width=1000&rnd=133159347440000000&quality=80",
             type: "Komanda",
             title: "Qalereya | Baş tennis kortunda dram",
             time: "1 gün əvvəl"
         },
         {
             id: 54,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/d/e/a/4/f/4dea4f0836d6232f43a87ad6ad8bb37fd02d865e.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28277/cad-tm11.jpg?center=0.34319526627218933%2c0.52166666666666661&mode=crop&width=1000&rnd=133154964140000000&quality=80",
             type: "Komanda",
             title: "Lage | Arxada daha sıx olmaq, şans və zədə almaq ",
             time: "1 gün əvvəl"
         },
         {
             id: 55,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/3/9/5/a/a/3395aa36e4b53584218fc9ac9a12d2f901a74020.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/27724/arsenal-h-4.jpg?center=0.64201183431952658%2c0.49&mode=crop&width=1000&rnd=133127570840000000&quality=80",
             type: "Komanda",
             title: "Danışan Noktalar | Southampton vs Wolves",
             time: "1 gün əvvəl"
         },
         {
             id: 56,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/d/6/a/b/e/ad6abe7bf84dc7d0b8b9d474bb5bcea358862699.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28342/pcuk.jpg?anchor=center&mode=crop&width=1000&rnd=133159354390000000&quality=80",
             type: "Klub",
             title: "Səyahət tərəfdarı məlumat | Southampton vs Wolves",
             time: "1 gün əvvəl"
         },
         {
             id: 57,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/d/a/d/a/b/3dadab97a4cdc6adb86e606982a130ed10307b10.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28324/1612-mcpike.jpg?center=0.29223744292237441%2c0.50128534704370176&mode=crop&width=1000&rnd=133156686390000000&quality=80",
             type: "Komanda",
             title: "Hwang, paketin bir hissəsi olmaqdan `xoşbəxt və qürurlu`",
             time: "1 gün əvvəl"
         },
         {
             id: 58,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/e/e/0/7/5/e/ee075ed1bbd0c6f37a952eccd222dc93d52249aa.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28326/1612-harkin-website.jpg?center=0.29680365296803651%2c0.50899742930591263&mode=crop&width=1000&rnd=133156759570000000&quality=80",
             type: "Akademiya",
             title: "Wolves xüsusi bir Akademiya veb saytı açır",
             time: "2 gün əvvəl"
         },
         {
             id: 59,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/9/5/9/6/d/a9596da2378de33ca68b484ca9fee003a1a89276.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28320/1612-reynolds.jpg?center=0.33789954337899542%2c0.50128534704370176&mode=crop&width=1000&rnd=133156591310000000&quality=80",
             type: "Xüsusiyyətləri",
             title: "Viktorina | Wolves' FIFA 22 oyunçu reytinqi",
             time: "2 gün əvvəl"
         },
         {
             id: 60,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/c/3/5/f/3/3/c35f335ea69f86db5684b3a6edee69345899bd1f.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28337/dicken1.jpg?center=0.32051282051282054%2c0.49189189189189192&mode=crop&width=1000&rnd=133156836310000000&quality=80",
             type: "Təməl",
             title: "Wolves Vəqfi Onun Kilsəsi Xeyriyyə Təşkilatı ilə əlaqə qurur",
             time: "2 gün əvvəl"
@@ -588,14 +588,14 @@ const initState = {
         },
         {
             id: 68,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/8/f/6/c/5/f8f6c56bf79e4709a78dfcc71f1b9fa0de07a859.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28398/2212-farmer.jpg?center=0.32420091324200911%2c0.50385604113110538&mode=crop&width=613&rnd=133161815860000000&quality=80&format=webp",
             type: "Komanda",
             title: "Jimenez, Southamptonda qol axtarır",
             time: "2 gün əvvəl"
         },
         {
             id: 69,
-            image: "https://sawolvesprodnortheurope.blob.core.windows.net/cache/d/e/b/4/d/f/deb4dfe257bef360eeb15b5cfc3780a5cc280164.jpg",
+            image: "https://wolves-cdn.azureedge.net/media/28348/wolves-museum.jpg?anchor=center&mode=crop&width=613&rnd=133160210290000000&quality=80&format=webp",
             type: "Klub",
             title: "Proqrama Baxış | Tottenhem",
             time: "2 gün əvvəl"

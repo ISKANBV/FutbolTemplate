@@ -90,6 +90,13 @@
       "Soyad": "Nebiyev",
       "Email": "ismayil@mail.com",
       "password": "ismayil123"
+    },
+    {
+      "id": 14,
+      "Ad": "Ismayil",
+      "Soyad": "Nebiyev",
+      "Email": "nabiyevismayil6@gmail.com",
+      "password": "12344321"
     }
   ]
 }

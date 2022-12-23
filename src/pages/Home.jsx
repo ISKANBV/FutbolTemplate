@@ -298,7 +298,7 @@ function Home(props) {
 
                         <div className="col-6 col-md-4 col-lg-4">
                             <div className="box" data-aos="zoom-in">
-                                <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/6/4/b/c/e/b/64bceb0a1fbf45ac98a67d45ae631e3a7e56393a.jpg" data-fancybox="gallery" alt="" />
+                                <img src="https://www.aljazeera.com/wp-content/uploads/2022/11/2022-11-29T213557Z_1405908315_UP1EIBT1MLYM6_RTRMADP_3_SOCCER-WORLDCUP-IRN-USA-REPORT-1.jpg?resize=1800%2C1800" data-fancybox="gallery" alt="" />
                             </div>
                         </div>
                     </div>
@@ -306,7 +306,7 @@ function Home(props) {
                     <div className="row row2">
                         <div className="col-6 col-md-3 col-lg-3">
                             <div className="box" data-aos="zoom-in">
-                                <img src="https://wikiimg.tojsiabtv.com/wikipedia/commons/2/2e/Ronaldo_in_2018.jpg" data-fancybox="gallery" alt="" />
+                                <img src="https://static01.nyt.com/images/2022/11/24/multimedia/24world-cup-carousel-ronaldo-1/merlin_217269798_bd0d8296-3caf-493d-bb60-758f27daba4e-square640.jpg?quality=75&auto=webp" data-fancybox="gallery" alt="" />
                             </div>
                         </div>
 
@@ -318,14 +318,14 @@ function Home(props) {
 
                         <div className="col-6 col-md-5 col-lg-5">
                             <div className="box" data-aos="zoom-in">
-                                <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/2/4/8/4/4/3248444fb33c983ac7ca3b721811deb96877528d.jpg" data-fancybox="gallery" alt="" />
+                                <img src="https://images.thestar.com/KoXDOtJvm6Q-6mlOqY8VfQBNlyY=/1086x724/smart/filters:cb(1671488496679):format(webp)/https://www.thestar.com/content/dam/thestar/sports/worldcup/2022/12/18/best-world-cup-final-ever-sport-superstars-delighted-by-messi-mbapp/lionel_messi.jpg" data-fancybox="gallery" alt="" />
                             </div>
                         </div>
                     </div>
 
                     <div className="storeg">
-                        <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/6/5/8/1/8/4/658184f072d1d3ff3715a84f24eca39a15b8c62a.jpg" data-fancybox="gallery" alt="" />
-                        <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/a/d/b/c/2/fadbc2ba36913e7e8aabd4ce8376162730f5beeb.jpg" data-fancybox="gallery" alt="" />
+                        <img src="https://images.moneycontrol.com/static-mcnews/2022/11/6-fifa-world-cup-day-9-highlights.jpg" data-fancybox="gallery" alt="" />
+                        <img src="https://pbs.twimg.com/media/Fj5qZfTaAAA2Fib.jpg" data-fancybox="gallery" alt="" />
                         <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/9/f/b/e/e/7/9fbee7f07e59c20e55cb0016f67b6a30566b18fb.jpg" data-fancybox="gallery" alt="" />
                         <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/5/e/5/2/b/a5e52b210f91bf3998c509b405368ee46cb5223b.jpg" data-fancybox="gallery" alt="" />
                         <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/8/d/6/5/1/b8d6515f45700f4ab1467c064eba7ce1a37fac57.jpg" data-fancybox="gallery" alt="" />
