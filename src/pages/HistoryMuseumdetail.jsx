@@ -9,7 +9,7 @@ function HistoryMuseumdetail() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-        <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/e/9/a/7/c/b/e9a7cb24773031c74febd41bb910f0b0dd9a2472.jpg)" }}>
+        <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/b/f/c/c/a/4bfccaf31a9e2ca683707bbc624344ec86081c16.webp)" }}>
             <div className="overlay">
                 <h1>MÜZE</h1>
             </div>
@@ -19,7 +19,7 @@ function HistoryMuseumdetail() {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/d/0/d/4/4/d/d0d44d621bcd9bf7a184a05c4506e5a9ace830ca.jpg)" }}>
+                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/4/7/5/d/6/f475d65c827e145f6d645131dd3942161486849c.webp)" }}>
                             <div className="content">
                                 <h3>Muzey Biletləri alın</h3>
                                 <p>Bilet Ofisini və ya Megastore'u ziyarət edin və ya 0371 222 1877 nömrəsinə zəng edin</p>
@@ -29,7 +29,7 @@ function HistoryMuseumdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/e/f/1/c/f/a/ef1cfaa5bc39dae7dd46e87e3e0867a4a88b7e81.jpg)" }}>
+                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/9/0/e/9/d/590e9dfa6896b0fce082cdf1132c5b1d7e094ba5.webp)" }}>
                             <div className="content">
                                 <h3>Stadion turuna çıxın</h3>
                                 <p>Bazar günü turlarla Molineux Stadionunda pərdə arxasına keçin</p>
@@ -39,7 +39,7 @@ function HistoryMuseumdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/b/f/5/d/4/abf5d4d2cc401e5b55e4dff7e3d23e25bb98f48f.jpg)" }}>
+                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/d/8/6/8/2/5/d8682593de804d71975f87d2ccc2179c6a7d1c9c.webp)" }}>
                             <div className="content">
                                 <h3>Şəxsi Stadion Turu sifariş edin</h3>
                                 <p>Molineux Stadionuna öz şəxsi qrup turunuzu sifariş edin.</p>
@@ -49,7 +49,7 @@ function HistoryMuseumdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/6/1/e/d/2/e/61ed2ed8036620be8bc4320323b701955e3f89c5.jpg)" }}>
+                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/e/f/c/4/9/2efc49cbff30dec56151fd4c9d1a0669adf8676c.webp)" }}>
                             <div className="content">
                                 <h3>Açılış vaxtları</h3>
                                 <p>Kurtlar Muzeyi açılış saatları</p>
@@ -59,7 +59,7 @@ function HistoryMuseumdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/8/e/e/2/1/b8ee21a985f81dca4b7c32121a7384503d2fede8.jpg)" }}>
+                        <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/e/2/9/b/9/2e29b9bf13288419ae459398edef87733d304935.webp)" }}>
                             <div className="content">
                                 <h3>Muzeyi kirayə verin</h3>
                                 <p>İşinizi və ya xüsusi tədbirinizi, 140 ildən çox tarixi olan, həqiqətən bənzərsiz bir məkanda keçirin!</p>

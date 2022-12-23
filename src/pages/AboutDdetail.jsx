@@ -10,7 +10,7 @@ function AboutDdetail() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-        <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/7/2/6/a/3/4726a3698f3291ea016be639b2b0c44c66267326.jpg)" }}>
+        <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/7/f/4/7/0/4/7f47044e57c6eb04f819eb12b0b586f59f55198e.webp)" }}>
             <div className="overlay">
                 <h1>DIREKTORLARIN PROFİLLERİ</h1>
             </div>
@@ -20,7 +20,7 @@ function AboutDdetail() {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/3/b/e/8/6/f3be86d3746e130030518632040f66b61f43bcb7.jpg)" }}>
+                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/8/6/6/3/a/a8663a09f4875f57d4b4b703e0d114c5feacd1e8.webp)" }}>
                             <div className="content">
                                 <h3>Jeff Shi</h3>
                                 <p>İcra başçısı</p>
@@ -30,7 +30,7 @@ function AboutDdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/c/b/d/0/a/fcbd0a0c0a26980c2a524870321ce381c78eec75.jpg)" }}>
+                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/0/7/a/e/4/807ae4e6b584541213d61ce477707328512fb87b.webp)" }}>
                             <div className="content">
                                 <h3>John Gough</h3>
                                 <p>Rejissor</p>
@@ -40,7 +40,7 @@ function AboutDdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/2/3/d/3/2/b23d3226cbc4fee4016e8fe5a72b626c6db88cce.jpg)" }}>
+                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/6/c/4/0/5/9/6c40594d1299fabc213e725af3ca901469520d6c.webp)" }}>
                             <div className="content">
                                 <h3>John Bowater</h3>
                                 <p>Rejissor</p>
@@ -50,7 +50,7 @@ function AboutDdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/d/b/4/a/e/5db4ae0f46081da209c176cf46752ca65e3928a4.jpg)" }}>
+                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/2/1/7/e/0/a217e03715b34fd1d3eeb60b2a99892ff327ccd3.webp)" }}>
                             <div className="content">
                                 <h3>Steve Bull MBE</h3>
                                 <p>VİCE-PREZİDENT</p>
@@ -60,7 +60,7 @@ function AboutDdetail() {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/3/c/5/d/d/43c5dd05635809477d58c4de6bd917c673282546.jpg)" }}>
+                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/9/0/6/9/a/49069aa1142aa0b3569a592e08a5405c692b9f58.webp)" }}>
                             <div className="content">
                                 <h3>Ron Flowers MBE</h3>
                                 <p>VİCE-PREZİDENT</p>
@@ -69,7 +69,7 @@ function AboutDdetail() {
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6">
-                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/1/e/2/d/5/4/1e2d5436baa10fe8f78d3635611665f817b6d9a9.jpg)" }}>
+                        <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/e/4/6/6/3/ae46639ada59f7799a040482ca81526ac266fcae.webp)" }}>
                             <div className="content">
                                 <h3>Robert Plant CBE</h3>
                                 <p>VİCE-PREZİDENT</p>

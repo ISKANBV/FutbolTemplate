@@ -10,7 +10,7 @@ function AboutMdetail() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/7/9/c/b/a/579cbae1492baef965e347fab839d22c003cb017.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/f/f/9/4/3/aff943392b94e0bd42d71a7dbfe23abe6b7127a3.webp)" }}>
                 <div className="overlay">
                     <h1>İDARƏ QURUB</h1>
                 </div>
@@ -23,7 +23,7 @@ function AboutMdetail() {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/1/c/b/1/c/a1cb1cdec41bd3453981b93cccf9ffe552aeceee.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/5/2/d/c/0/b52dc04eccd84496bd93e2793a0b78a6fffb51ba.webp)" }}>
                                 <div className="content">
                                     <h3>Jeff Shi</h3>
                                     <p>İcra başçısı</p>
@@ -33,7 +33,7 @@ function AboutMdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/9/6/0/f/e/4/960fe43de19e6b2dc6c6c218172d5fcd06596d73.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/9/4/e/3/c/b/94e3cbc4281bda89be1c1ab55cc3e9f719687875.webp)" }}>
                                 <div className="content">
                                     <h3>Scott Sellars</h3>
                                     <p>Texniki direktor</p>
@@ -43,7 +43,7 @@ function AboutMdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/b/8/5/c/0/fb85c0753702cbdbcbd10f55f61b78ff79684887.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/3/1/a/d/6/b31ad6692adfb22e506b10f04900a1138d2c6ccc.webp)" }}>
                                 <div className="content">
                                     <h3>Matt Wild</h3>
                                     <p>Baş menecer - futbol əməliyyatları</p>
@@ -53,7 +53,7 @@ function AboutMdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/3/4/8/0/e/43480e319a7ef8a8c0dbd89202202944050bbcdb.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/4/9/a/a/5/b49aa5c6519a723e820ad9bff27e3bf9feb4ad3d.webp)" }}>
                                 <div className="content">
                                     <h3>Vinny Clark</h3>
                                     <p>Baş menecer - kommersiya əməliyyatları</p>
@@ -63,7 +63,7 @@ function AboutMdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/0/e/0/9/d/f/0e09dfba265cf0adcc1b18cd99e8eff4f963f264.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/3/7/1/c/7/a371c731ecbb8743c171623faa511f68e1c5419d.webp)" }}>
                                 <div className="content">
                                     <h3>Russell Jones</h3>
                                     <p>General manager - marketing and commercial growth</p>

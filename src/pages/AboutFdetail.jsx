@@ -10,7 +10,7 @@ function AboutFdetail() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/d/9/2/0/a/ad920a1cc11279f6daea2195ab3ab60c9b942dfb.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/9/6/7/6/b/f/9676bfa832e2ca5359aaeeff344e9aa24580f6d7.webp)" }}>
                 <div className="overlay">
                     <h1>FUTBOL PERSONELİ</h1>
                 </div>
@@ -33,7 +33,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/9/3/e/7/f/3/93e7f31c7cb48540a51f07f652b77200701d034d.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/6/8/6/c/2/0/686c203adb6ba11528b5e357fbaf7270a90f3846.webp)" }}>
                                 <div className="content">
                                     <h3>Alex Silva</h3>
                                     <p>Baş məşqçinin köməkçisi</p>
@@ -43,7 +43,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/d/c/a/9/0/7/dca907656088cbf015395cc9cfc3949d6d89503a.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/a/d/7/3/7/5ad737d7c5fa100b0ad63f5ffe244a30b7294197.webp)" }}>
                                 <div className="content">
                                     <h3>Carlos Cachada</h3>
                                     <p>Birinci komanda fitness məşqçisi</p>
@@ -53,7 +53,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/0/2/4/b/0/3024b0d1633e13dad23b28731e9051b17e40fdbc.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/8/6/e/6/7/286e67b47b46ecc66b06b630c35905818b37354f.webp)" }}>
                                 <div className="content">
                                     <h3>Tony Roberts</h3>
                                     <p>Qapıçı məşqçisi</p>
@@ -63,7 +63,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/6/a/1/d/1/36a1d11e48490256f43ef7925166d9725acfd326.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/9/6/4/3/5/1/964351f4e0e3e649ada42534d3a247105cb44b2c.webp)" }}>
                                 <div className="content">
                                     <h3>Jhony Conceicao</h3>
                                     <p>Məşqçilik strategiyasının rəhbəri</p>
@@ -73,7 +73,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/1/6/f/e/c/0/16fec0a17a95c03cd490b1b7d8d5a5d6f7150a40.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/7/f/5/8/0/5/7f580566eab4711cbf6e23e694db4e39a339caa2.webp)" }}>
                                 <div className="content">
                                     <h3>Luis Nascimento</h3>
                                     <p>Peşəkar inkişaf üzrə baş məşqçi</p>
@@ -83,7 +83,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/9/8/2/8/8/f98288d4469fd2971171ddee0903ec056b97643e.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/9/6/7/d/d/1/967dd11afaeecdb16dcee24278c61511dedebecd.webp)" }}>
                                 <div className="content">
                                     <h3>Diogo Camacho</h3>
                                     <p>Birinci komanda analitiki</p>
@@ -93,7 +93,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/e/1/e/c/6/2/e1ec62f594560e3778465b4cf871920a431c4b22.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/b/b/1/7/3/5bb1731ed57efd700130f928f006e2ad96352fca.webp)" }}>
                                 <div className="content">
                                     <h3>James Collins</h3>
                                     <p>23 yaşadək baş məşqçi</p>
@@ -103,7 +103,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/7/0/d/2/c/a/70d2ca0f19516571781d56846f4ff64753021ae4.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/1/0/b/8/9/f10b891b578fbfd1340870c83f9627952939627e.webp)" }}>
                                 <div className="content">
                                     <h3>Steve Davis</h3>
                                     <p>18 yaşadək baş məşqçi</p>
@@ -113,7 +113,7 @@ function AboutFdetail() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/3/d/e/e/2/83dee2a82bc1acf04a50aa6739f42fa5b0a096de.jpg)" }}>
+                            <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/c/9/f/4/3/d/c9f43d91cc889ab2ef01e20b6cecf2d4f855ee61.webp)" }}>
                                 <div className="content">
                                     <h3>Dan McNamara</h3>
                                     <p>Wolves Qadınlar baş məşqçisi</p>

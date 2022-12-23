@@ -9,7 +9,7 @@ function HistoryRdetail() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/7/d/b/a/a/b7dbaae05e182523bfed22399e303d95f4c032f2.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/d/5/1/e/8/5d51e8555606e94aaaa22ea61eb5317737952c92.webp)" }}>
                 <div className="overlay">
                     <h1>KLUB ŞƏRƏFLƏRİ & QEYDİYYATLARI</h1>
                 </div>

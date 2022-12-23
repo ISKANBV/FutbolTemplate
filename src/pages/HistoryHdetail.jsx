@@ -9,7 +9,7 @@ function HistoryHdetail() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/7/c/2/0/6/5/7c2065ae9744d99a9bf0b8dc11330607dd42e2a4.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/d/c/d/9/b/2dcd9bd33a92938f6e24dbcecc42f6fbebb9d54e.webp)" }}>
                 <div className="overlay">
                     <h1>TARİX</h1>
                 </div>

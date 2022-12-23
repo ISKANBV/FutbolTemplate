@@ -10,7 +10,7 @@ function History() {
     return (
         <div style={{ marginTop: "130px" }}>
 
-            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/e/9/a/7/c/b/e9a7cb24773031c74febd41bb910f0b0dd9a2472.jpg)" }}>
+            <div className="newstitle" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/4/b/f/c/c/a/4bfccaf31a9e2ca683707bbc624344ec86081c16.webp)" }}>
                 <div className="overlay">
                     <h1>WOLVESIN TARİXİ</h1>
                     <h5>1877 -ci ildən bu günə qədər</h5>
@@ -26,7 +26,7 @@ function History() {
                     <div className="col-12 col-md-10 col-lg-10">
                             <div className="box" data-aos="flip-up">
                                 <div className="img">
-                                    <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/b/8/e/e/2/1/b8ee21a985f81dca4b7c32121a7384503d2fede8.jpg" alt="" />
+                                    <img src="https://sawolvesprodnortheurope.blob.core.windows.net/cache/2/7/3/c/9/6/273c966bee316db10f6e8c41e9bf030f02796c70.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function History() {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/6/1/e/d/2/e/61ed2ed8036620be8bc4320323b701955e3f89c5.jpg)" }}>
+                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/4/e/b/9/9/f4eb999c9314d65ba207c6ce22e19109cd6e4f76.webp)" }}>
                                 <div className="content">
                                     <h3>Club Records</h3>
                                     <p>Tarix boyu qazandığımız uğurların siyahısı.</p>
@@ -61,7 +61,7 @@ function History() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/d/0/d/4/4/d/d0d44d621bcd9bf7a184a05c4506e5a9ace830ca.jpg)" }}>
+                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/4/7/5/d/6/f475d65c827e145f6d645131dd3942161486849c.webp)" }}>
                                 <div className="content">
                                     <h3>Wolves Muzeyi</h3>
                                     <p>Kurtlar Muzeyində xatirə zolağında gəzintiyə çıxın.</p>
@@ -71,21 +71,21 @@ function History() {
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/5/c/8/5/4/7/5c85479ba0c159ddf1c08a7b509c1c918b69c6a9.jpg)" }}>
+                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/f/2/b/2/7/7/f2b277b9a9303a0a049e315abaae902231546db6.webp)" }}>
                                 <div className="content">
                                     <h3>Şöhrət Zalı</h3>
                                     <p>Kurtlar Şöhrət Zalına kimlərin cəlb olunduğuna baxın.</p>
-                                    <Link to="/historyzdetail">Daha çox məlumat əldə edin</Link>
+                                    <Link to="">Daha çox məlumat əldə edin</Link>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/3/1/3/f/d/9/313fd9546b8131cc8df6c4c53da976e7bfd0f004.jpg)" }}>
+                            <div className="box" data-aos="flip-up" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/8/9/c/3/1/c/89c31cb3f7ce400c85843a30ad1a9e6ddf8cc529.webp)" }}>
                                 <div className="content">
                                     <h3>Menecerlər</h3>
                                     <p>Bütün Kurtlar menecerləri və baş məşqçilər haqqında oxuyun.</p>
-                                    <Link to="/historymdetail">Daha çox məlumat əldə edin</Link>
+                                    <Link to="">Daha çox məlumat əldə edin</Link>
                                 </div>
                             </div>
                         </div>

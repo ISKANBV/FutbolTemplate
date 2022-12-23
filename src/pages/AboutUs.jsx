@@ -78,7 +78,7 @@ function AboutUs() {
                             <div className="box" data-aos="zoom-out" style={{ backgroundImage: "url(https://sawolvesprodnortheurope.blob.core.windows.net/cache/a/7/4/d/e/8/a74de859be088718bdf7027fd5783f1be62d6018.webp)" }}>
                                 <div className="content">
                                     <h3>Futbol olmayan heyət</h3>
-                                    <Link to="/aboutfdetail">Bura basın</Link>
+                                    <Link to="">Bura basın</Link>
                                 </div>
                             </div>
                         </div>
